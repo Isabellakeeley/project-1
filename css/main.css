@@ -6,3 +6,6 @@
     background-color: #666666;
 }
 
+.top-button{
+    display: flex-end 
+}
