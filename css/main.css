@@ -7,5 +7,6 @@
 }
 
 .top-button{
-    display: flex-end 
+    display: flex;
+    justify-items: flex-end;
 }
