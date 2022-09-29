@@ -1,2 +1,7 @@
 /* Place CSS styles here */
-.box
+.box-parent{
+    width: 1366px;
+    height: 280.0024px;
+    display: block; 
+    background-color: #666666;
+}
