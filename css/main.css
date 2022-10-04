@@ -8,5 +8,5 @@
 
 .top-button{
     flex-direction: row; 
-    justify-items: flex-end;
+    -ms-flex-item-bottom: ;
 }
