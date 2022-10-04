@@ -7,6 +7,6 @@
 }
 
 .top-button{
-    display: flex;
+    flex-direction: row; 
     justify-items: flex-end;
 }
