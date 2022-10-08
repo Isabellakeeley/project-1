@@ -1,12 +1,61 @@
 /* Place CSS styles here */
-.box-parent{
+.main-nav{
     width: 100%;
-    height: 280.0024px;
-    display: block; 
     background-color: #666666;
+    display:flex;
+        justify-content: space-between;
+        padding-top: 150px;
+}
+.logo{
+    max-width: 400px
+}
+nav a {
+color: azure;
+}
+header {
+    display: flex;
+}
+.bannerhome-parent{
+    width: 100%;
+    height: 420px;  
+    background-image:
+    linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ),
+     url(../img/Untitled-7.png)
+}
+.bannerhome-parent a{
+    width: 100%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: azure;
+    color: azure;
+    display: flexbox;
+    justify-content: space-evenly;
+}
+.bottom-container{
+    padding-block: 0px;
+    width: 100%;
+    height: 260px;
+    background-color: #413f3f;
+}
+p{
+    color: azure;
+}
+.items{ 
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #9c9b9b;
 }
 
-.top-button{
-    flex-direction: row; 
-    -ms-flex-item-bottom: ;
+.contact-list{
+background-color: rgb(241, 178, 101);
+min-height: 800px;
+}
+.contact-list a{
+    color: rgb(49, 76, 76)
+}
+.contact-list h2{
+    color: rgb(23, 65, 65);
+}
+.menu-title{
+    background-color:  rgb(89, 138, 138);
 }
