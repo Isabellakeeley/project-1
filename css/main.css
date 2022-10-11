@@ -5,7 +5,6 @@
     display:flex;
         justify-content: space-between;
         padding-top: 150px;
-        margin: 0%;
 }
 .logo{
     max-width: 400px
@@ -15,6 +14,7 @@ color: azure;
 }
 header {
     display: flex;
+    margin: 0px;
 }
 .bannerhome-parent{
     display: flex;
@@ -45,18 +45,24 @@ p{
 .items{ 
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    background-color: #9c9b9b;
+    background-color: #cdcaca;
+    border-color: #0e0d0d;
+    border-width: 6px;
+    border-style: solid;
 }
 
 .contact-list{
-background-color: rgb(121, 212, 224);
-min-height: 800px;
+    width: 100%;
+    height: 800px;  
+    background-image:
+    linear-gradient( rgba(0,0,0,.7), rgba(0,0,0,.7) ),
+     url(../img/back3.jpeg)
+    
 }
 .contact-list a{
-    color: rgb(16, 70, 78);
+    color: rgb(146, 221, 232); 
+
 }
 .contact-list h2{
-    color: rgb(16, 70, 78);
+    color: rgb(204, 222, 225);    
 }
-.menu-title{
-    background-color: rgb(121, 212, 224);
