@@ -15,8 +15,10 @@ color: azure;
 header {
     display: flex;
     margin: 0px;
+    margin-bottom: 0%;
 }
 .bannerhome-parent{
+    margin-bottom: 0;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -31,10 +33,11 @@ header {
     border-width: 5px;
     border-color: azure;
     color: azure;
+    margin-right: 100px;
 
 }
 .bottom-container{
-    padding-block: 0px;
+    padding-block: 20px;
     width: 100%;
     height: 260px;
     background-color: #413f3f;
@@ -52,11 +55,14 @@ p{
 }
 
 .contact-list{
+    display: grid;
+    justify-content: center;
     width: 100%;
     height: 800px;  
     background-image:
     linear-gradient( rgba(0,0,0,.7), rgba(0,0,0,.7) ),
      url(../img/back3.jpeg)
+
     
 }
 .contact-list a{
@@ -65,4 +71,25 @@ p{
 }
 .contact-list h2{
     color: rgb(204, 222, 225);    
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+h2{
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+h3{
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+nav{
+    display: flex;
+    align-items: center
 }
